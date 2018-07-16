@@ -1,0 +1,9 @@
+type: chart
+rootfs:
+  - image: samsung_cnct/klar
+    buildArgs: 
+      - arg: DEP_VERSION
+        value: "v0.4.1"
+      - arg: GOSU_VERSION
+        value: "1.10"
+    context: klar
